@@ -1,22 +1,24 @@
 <template>
   <v-app>
     <v-main>
-      <HelloWorld/>
+      <v-content>
+        <TopPage/>
+      </v-content>
       <AppFooter/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TopPage from './components/TopPage.vue'
 import AppFooter from './components/AppFooter.vue'
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
-    AppFooter
+    TopPage,
+    AppFooter,
   },
 
   data: () => ({
