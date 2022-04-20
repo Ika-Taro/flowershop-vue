@@ -4,7 +4,7 @@
     absolute
     width="100vw"
   >
-      <div class="footer">Copyright TaroFlowerShop 2022. All right reserved</div>
+      <div class="footer">Copyright TaroFlowerShop 2022. All rights reserved</div>
   </v-footer>
 </template>
 <style lang="scss" scoped>
