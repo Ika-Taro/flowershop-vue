@@ -4,7 +4,7 @@
     <div class="section__title">
       <div class="section__title-text">Information</div>
     </div>
-    <v-container fluid>
+    <v-container>
       <v-row class="home-about__contents">
         <v-col sm="6" class="home-about__contents-img">
           <v-img src="../assets/flowershop-shop.jpg" alt="shopimage" class="img-fluid"></v-img>
