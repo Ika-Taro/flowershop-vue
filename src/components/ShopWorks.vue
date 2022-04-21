@@ -4,6 +4,7 @@
   :show-arrows="false"
   hide-delimiter-background
   show-arrows-on-hover
+  height="auto"
   >
     <div class="carousel-item">
       <v-carousel-item 
@@ -40,7 +41,7 @@
 </script>
 
 <style  lang="scss" scoped>
-  .carousel-item {
+  .carousel-item-img {
     object-fit: cover !important;
   }
 </style>
