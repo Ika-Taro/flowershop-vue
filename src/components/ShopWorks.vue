@@ -1,5 +1,6 @@
 <template>
-  <v-carousel 
+  <v-carousel
+  cycle
   :show-arrows="false"
   hide-delimiter-background
   show-arrows-on-hover
