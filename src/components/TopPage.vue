@@ -1,17 +1,20 @@
 <template>
   <section class="top-page">
     <HomeHero/>
-    <MainPage/>
+    <AppHeader/>
+    <ShopInfo/>
   </section>
 </template>
 <script>
 import HomeHero from './HomeHero.vue'
-import MainPage from './MainPage.vue'
+import AppHeader from './AppHeader.vue'
+import ShopInfo from './ShopInfo.vue'
 
 export default {
   components: {
     HomeHero,
-    MainPage,
+    AppHeader,
+    ShopInfo,
   }
 }
 </script>

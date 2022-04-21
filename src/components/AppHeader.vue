@@ -14,5 +14,5 @@
       </v-icon>
     </v-btn>
 
-  </v-toolbar>  
+  </v-toolbar>
 </template>
