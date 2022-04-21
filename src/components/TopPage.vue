@@ -3,18 +3,21 @@
     <HomeHero/>
     <AppHeader/>
     <ShopInfo/>
+    <AboutMe/>
   </section>
 </template>
 <script>
 import HomeHero from './HomeHero.vue'
 import AppHeader from './AppHeader.vue'
 import ShopInfo from './ShopInfo.vue'
+import AboutMe from './AboutMe.vue'
 
 export default {
   components: {
     HomeHero,
     AppHeader,
     ShopInfo,
+    AboutMe,
   }
 }
 </script>
